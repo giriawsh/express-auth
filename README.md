@@ -22,7 +22,7 @@
 
 使用jsonwebtoken包，jwt.sign({id}, SECRET);
 
-生成的token加入到请求头Authorization: Bear token中
+生成的token加入到请求头Authorization: Bearer token中
 
 6. 验证token
 
